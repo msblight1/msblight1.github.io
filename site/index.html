@@ -2,6 +2,33 @@
 <head>
     <title>my website</title>
 </head>
+<style>
+    ul.menu > li {
+        list-style: none;
+    }
+    ul.menu a:link, a:visited {
+        text-decoration:none;
+        color:purple;
+        background-color:pink;
+        border: 1px solid blue;
+        display: block;
+        width: 200px;
+        text-align:center;
+        margin-bottom:3px;
+    }
+    a:hover {
+        color:red;
+    }
+    div#topmenu li:nth-child(1){
+        font-size: 100px;
+    }    
+    img{
+        width:500px;
+    }
+    section#yuri p{
+        font-size: 100px;
+    }
+</style>
     <body>
         <header>
             msblight1.github.io
@@ -10,8 +37,8 @@
             </a>
         </header>
         <h1 id="top">hi guys.</h1>
-        <div>very important stuff:
-            <ul>
+        <div id="topmenu">very important stuff:
+            <ul class="menu">
                 <li><a href="#yuri">yuri ! ! !</a></li>
                 <li><a href="#log">log</a></li>
             </ul>
@@ -34,7 +61,9 @@
             <div>11/29/2023
                 <ul>
                 <li>today was spent learning HTML tags including common block tags, internal, external, fragmented HRef tags, messing around with the site</li>
-                
+                <li>i began learning CSS, including selectors, declarations, elements, and values.</li>
+                <li>i learned about selectors including class, pseudo-class, and id selectors, as well as combining various selectors using spaces, commas, and &gt; signs.</li>
+                <li>i think thats all for today.</li>
                 </ul>
             </div>
             
