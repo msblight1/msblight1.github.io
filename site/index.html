@@ -1,41 +1,12 @@
-<html>
+<!doctype html>
 <head>
     <title>my website</title>
 </head>
-<style>
-    ul.menu > li {
-        list-style: none;
-    }
-    ul.menu a:link, a:visited {
-        text-decoration:none;
-        color:purple;
-        background-color:pink;
-        border: 1px solid blue;
-        display: block;
-        width: 200px;
-        text-align:center;
-        margin-bottom:3px;
-    }
-    a:hover {
-        color:red;
-    }
-    div#topmenu li:nth-child(1){
-        font-size: 100px;
-    }    
-    img{
-        width:500px;
-    }
-    section#yuri p{
-        font-size: 100px;
-    }
-</style>
-    <body>
-        <header>
-            msblight1.github.io
-            <a href="https://msblight1.github.io">
-                <div>return</div>
-            </a>
-        </header>
+<link rel="stylesheet" href="/stylesheet.css">
+<body>
+    <header>misha devblog
+        <nav><a href="/index.html">return</a></nav>
+    </header>
         <h1 id="top">hi guys.</h1>
         <div id="topmenu">very important stuff:
             <ul class="menu">
@@ -44,29 +15,36 @@
             </ul>
         </div>
         <section id="log">
-            <div>here i intend to record my learning process as a developer.</div>
-            <div>my goals for development include:
+            <article>here i intend to log my happenings as a developer.
+                <div>&nbsp;</div>
+                <div>my goals for development include:
                 <ul>
                     <li>learning how to make and interact with websites</li>
                     <li>learning search engine optimization</li>
                     <li>becoming a successful developer</li>
                     <li>developing a cool game idea ive had for a long time.</li>
                 </ul>
-            </div>
-            <div>11/27/2023 (entered 11/29)
+                </div>
+            </article>
+            <article>11/27/2023 (entered 11/29)
                 <ul>
                     <li>today i started learning HTML. i downloaded and familiarized myself with my new development tools, including github and git, browsersync, and visual studio. i also made my first website</li>
                 </ul>
-            </div>
-            <div>11/29/2023
+            </article>
+            <article>11/29/2023
                 <ul>
                 <li>today was spent learning HTML tags including common block tags, internal, external, fragmented HRef tags, messing around with the site</li>
                 <li>i began learning CSS, including selectors, declarations, elements, and values.</li>
                 <li>i learned about selectors including class, pseudo-class, and id selectors, as well as combining various selectors using spaces, commas, and &gt; signs.</li>
                 <li>i think thats all for today.</li>
                 </ul>
-            </div>
-            
+            </article>
+            <article>11/30/2023
+                <ul>
+                    <li>trying to implement a global stylesheet for the website.</li>
+                    <li>eventually got the stylesheet to work. feeling good about using CSS.</li>
+                </ul>
+            </article>
 
         </section>
         <section id="yuri">
@@ -77,5 +55,5 @@
             <div><img src="FEObaVIUYAI5Kbn.jpg"></div>
         </section>
         <div><a href="#top">back to top</a></div>
+        <footer class="text"> &quot;shit in the sink, never sink in the shit.&quot; copyright misha the great, 2023 &copy;</footer>
     </body>
-</html>
