@@ -1,7 +1,11 @@
+* {
+    box-sizing:border-box;
+}
 body {
-    background-color:rgb(26, 25, 31);
+    background: rgb(26, 25, 31) ;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color:white;
+    box-sizing:border-box;
 }
 a {
     display:inline-block;
@@ -26,6 +30,12 @@ section {
 article {
     margin: 0px 0px 75px;
     width:500px;
+    padding: 5px;
+    border: 1px solid white;
+}
+img {
+    width:500px;
+    margin: 0px 0px 75px;
     padding: 5px;
     border: 1px solid white;
 }
