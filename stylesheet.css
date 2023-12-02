@@ -1,11 +1,8 @@
-* {
-    box-sizing:border-box;
-}
+
 body {
     background: rgb(26, 25, 31) ;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color:white;
-    box-sizing:border-box;
 }
 a {
     display:inline-block;
@@ -24,8 +21,12 @@ header {
 footer {
     margin:100px 0px 10px;
 }
+#backtop {
+    text-align:center;
+}
 section {
     margin: 5px 100px 5px;
+    clear:both;
 }
 article {
     margin: 0px 0px 75px;
@@ -34,9 +35,18 @@ article {
     border: 1px solid white;
 }
 img {
-    width:500px;
+    width:450px;
+}
+.image {
+    width:450px;
+    height:450px;
     margin: 0px 0px 75px;
     padding: 5px;
     border: 1px solid white;
 }
-
+#left {
+    float:left;
+}
+#right {
+    float:right;
+}
