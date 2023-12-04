@@ -40,13 +40,30 @@ img {
 .image {
     width:450px;
     height:450px;
-    margin: 0px 0px 75px;
+    margin: 0px 75px 75px 0px;
     padding: 5px;
     border: 1px solid white;
+    position:absolute;
+    
 }
-#left {
-    float:left;
+.imagecontainer {
+    position: relative;
 }
-#right {
-    float:right;
+@media screen and (orientation:portrait){
+    * {
+        color:hotpink;
+    }
+    body{
+        font-size:3em;
+    }
+    a{
+        font-size:3em;
+    }
+    section{
+        width:100%;
+        float:center;
+    }
+    article{
+        width:75%;
+    }
 }
